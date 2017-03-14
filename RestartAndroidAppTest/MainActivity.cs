@@ -17,8 +17,6 @@ namespace RestartAndroidAppTest
 
             MyApplication.activity = this;
 
-            //Thread.DefaultUncaughtExceptionHandler = new MyExceptionHandler(this);
-
             if (Intent.GetBooleanExtra("crash", false))
             {
                 Toast.MakeText(this, "App restarted after crash", ToastLength.Short).Show();
