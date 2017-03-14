@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyApplication.cs" />
-    <Compile Include="MyExceptionHandler.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
